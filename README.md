@@ -8,7 +8,7 @@ N/A
 
 ## Usage
 Users only need a computer, mobile device, or tablet with an internet connection.
-Password Generator URL: 
+Password Generator URL: https://github.com/ALugo0823/Password-Generator-Machine
 
 ![Password Generator Screenshot](./Assets/password-generator-screenshot.png)
 

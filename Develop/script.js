@@ -26,7 +26,7 @@ function promptUser() {
       alert("Password must be a number between 8-128. Please try again")
        return promptUser();
     }
-
+//confirm windows which ask user for password criteria
 userSpecialChar = confirm("Would you like special characters in your password?");
 userLowerCase = confirm("Would you like lowercase letters in your password?");
 userUpperCase = confirm("Would you like uppercase letters in your password?");
@@ -59,7 +59,7 @@ while(userSpecialChar === false && userLowerCase === false && userUpperCase === 
     function generatePassword() {
       var password = "";
       for(var i = 0; i < userLength; i++) {
-        var randomChar = Math.floor(Math.random() * userChoice.length);
+        var randomChar = Math.floor(Math.random() * userChoice.length); //math function chooses random index in the arrays declared at top
         password = password + userChoice[randomChar];
       }
       return password;
