@@ -10,7 +10,7 @@ N/A
 Users only need a computer, mobile device, or tablet with an internet connection.
 Password Generator URL: 
 
-![Password Generator Screenshot](password-generator-screenshot.png)
+![Password Generator Screenshot](./Assets/password-generator-screenshot.png)
 
 
 ## Credits
