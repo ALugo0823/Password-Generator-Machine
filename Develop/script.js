@@ -7,10 +7,6 @@ var upperCase = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P'
 // variable declarations of user inputs
 var userLength;
 var userChoice = [];
-var userSpecialChar;
-var userLowerCase;
-var userUpperCase;
-var userNum;
 
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
@@ -27,10 +23,10 @@ function promptUser() {
        return promptUser();
     }
 //confirm windows which ask user for password criteria
-userSpecialChar = confirm("Would you like special characters in your password?");
-userLowerCase = confirm("Would you like lowercase letters in your password?");
-userUpperCase = confirm("Would you like uppercase letters in your password?");
-userNum = confirm("Would you like numbers in your password?");
+var userSpecialChar = confirm("Would you like special characters in your password?");
+var userLowerCase = confirm("Would you like lowercase letters in your password?");
+var userUpperCase = confirm("Would you like uppercase letters in your password?");
+var userNum = confirm("Would you like numbers in your password?");
 
 //loop that checks if all parameters are set to false
 while(userSpecialChar === false && userLowerCase === false && userUpperCase === false && userNum === false) { 
